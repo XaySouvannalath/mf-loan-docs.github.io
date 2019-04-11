@@ -8,13 +8,13 @@
     <meta name="description" content="Vue.js - The Progressive JavaScript Framework">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="alternate" hreflang="x-default" href="https://vuejs.org/index.html">
-    <link rel="alternate" hreflang="zh" href="https://cn.vuejs.org/index.html">
-    <link rel="alternate" hreflang="ja" href="https://jp.vuejs.org/index.html">
-    <link rel="alternate" hreflang="ru" href="https://ru.vuejs.org/index.html">
-    <link rel="alternate" hreflang="ko" href="https://kr.vuejs.org/index.html">
-    <link rel="alternate" hreflang="pt-BR" href="https://br.vuejs.org/index.html">
-    <link rel="alternate" hreflang="fr" href="https://fr.vuejs.org/index.html">
+    <link rel="alternate" hreflang="x-default" href="https://vuejs.org/support-vuejs/index.html">
+    <link rel="alternate" hreflang="zh" href="https://cn.vuejs.org/support-vuejs/index.html">
+    <link rel="alternate" hreflang="ja" href="https://jp.vuejs.org/support-vuejs/index.html">
+    <link rel="alternate" hreflang="ru" href="https://ru.vuejs.org/support-vuejs/index.html">
+    <link rel="alternate" hreflang="ko" href="https://kr.vuejs.org/support-vuejs/index.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://br.vuejs.org/support-vuejs/index.html">
+    <link rel="alternate" hreflang="fr" href="https://fr.vuejs.org/support-vuejs/index.html">
 
     <meta property="og:type" content="article">
     <meta property="og:title" content="Vue.js">
@@ -54,7 +54,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- main page styles -->
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/page.css">
 
     <!-- this needs to be loaded before guide's inline scripts -->
     <script src="/js/vue.js"></script>
@@ -77,8 +77,8 @@
     <!-- vimeo analytics -->
     <script type="text/javascript" defer="defer" src="https://extend.vimeocdn.com/ga/72160148.js"></script>
   </head>
-  <body class>
-    <div id="mobile-bar" class="top">
+  <body class="docs">
+    <div id="mobile-bar">
       <a class="menu-button"></a>
       <a class="logo" href="/"></a>
     </div>
@@ -212,13 +212,13 @@
 <!-- <li class="nav-dropdown-container language">
   <a class="nav-link">Translations</a><span class="arrow"></span>
   <ul class="nav-dropdown">
-    <li><a href="https://cn.vuejs.org/index.html" class="nav-link" target="_blank">中文</a></li>
-    <li><a href="https://jp.vuejs.org/index.html" class="nav-link" target="_blank">日本語</a></li>
-    <li><a href="https://ru.vuejs.org/index.html" class="nav-link" target="_blank">Русский</a></li>
-    <li><a href="https://kr.vuejs.org/index.html" class="nav-link" target="_blank">한국어</a></li>
-    <li><a href="https://br.vuejs.org/index.html" class="nav-link" target="_blank">Português</a></li>
-    <li><a href="https://fr.vuejs.org/index.html" class="nav-link" target="_blank">Français</a></li>
-    <li><a href="https://vi.vuejs.org/index.html" class="nav-link" target="_blank">Tiếng Việt</a></li>
+    <li><a href="https://cn.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">中文</a></li>
+    <li><a href="https://jp.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">日本語</a></li>
+    <li><a href="https://ru.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Русский</a></li>
+    <li><a href="https://kr.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">한국어</a></li>
+    <li><a href="https://br.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Português</a></li>
+    <li><a href="https://fr.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Français</a></li>
+    <li><a href="https://vi.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Tiếng Việt</a></li>
   </ul>
 </li>
  -->
@@ -228,8 +228,10 @@
 </div>
 
     
-      <div class="sidebar">
-  <div class="sidebar-inner-index">
+      <div id="main" class="fix-sidebar">
+        
+          
+  <div class="sidebar">
     <ul class="main-menu">
       <li>
   <form id="search-form">
@@ -355,13 +357,13 @@
 <!-- <li class="nav-dropdown-container language">
   <a class="nav-link">Translations</a><span class="arrow"></span>
   <ul class="nav-dropdown">
-    <li><a href="https://cn.vuejs.org/index.html" class="nav-link" target="_blank">中文</a></li>
-    <li><a href="https://jp.vuejs.org/index.html" class="nav-link" target="_blank">日本語</a></li>
-    <li><a href="https://ru.vuejs.org/index.html" class="nav-link" target="_blank">Русский</a></li>
-    <li><a href="https://kr.vuejs.org/index.html" class="nav-link" target="_blank">한국어</a></li>
-    <li><a href="https://br.vuejs.org/index.html" class="nav-link" target="_blank">Português</a></li>
-    <li><a href="https://fr.vuejs.org/index.html" class="nav-link" target="_blank">Français</a></li>
-    <li><a href="https://vi.vuejs.org/index.html" class="nav-link" target="_blank">Tiếng Việt</a></li>
+    <li><a href="https://cn.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">中文</a></li>
+    <li><a href="https://jp.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">日本語</a></li>
+    <li><a href="https://ru.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Русский</a></li>
+    <li><a href="https://kr.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">한국어</a></li>
+    <li><a href="https://br.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Português</a></li>
+    <li><a href="https://fr.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Français</a></li>
+    <li><a href="https://vi.vuejs.org/support-vuejs/index.html" class="nav-link" target="_blank">Tiếng Việt</a></li>
   </ul>
 </li>
  -->
@@ -369,173 +371,239 @@
 
     </ul>
   </div>
-</div>
 
-<div id="hero">
-  <div class="inner">
-    <div class="left">
-      <img class="hero-logo" src="/images/logo.png" alt="vue logo">
-    </div><div class="right">
-      <h2 class="vue">Vue.js</h2>
-      <h1>
-        JDB<br>Joint Development Bank!
-      </h1>
-      <p>
-        <a id="modal-player" class="button has-icon" href="javascript:;">
-          <svg aria-labelledby="simpleicons-play-icon" role="img" viewbox="0 0 100 125" fill="#FFFFFF"><title id="simpleicons-play-icon" lang="en">Play icon</title><path d="M50,3.8C24.5,3.8,3.8,24.5,3.8,50S24.5,96.2,50,96.2S96.2,75.5,96.2,50S75.5,3.8,50,3.8z M71.2,53.3l-30.8,18  c-0.6,0.4-1.3,0.5-1.9,0.5c-0.6,0-1.3-0.1-1.9-0.5c-1.2-0.6-1.9-1.9-1.9-3.3V32c0-1.4,0.8-2.7,1.9-3.3c1.2-0.6,2.7-0.6,3.8,0  l30.8,18c1.2,0.6,1.9,1.9,1.9,3.3S72.3,52.7,71.2,53.3z"/></svg>
-
-          WHY VUE.JS?</a>
-        <a class="button white" href="/v2/guide/">GET STARTED</a>
-        <a class="button gray has-icon" href="https://github.com/vuejs/vue" target="_blank">
-          <svg aria-labelledby="simpleicons-github-dark-icon" lang="" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon" lang="en">GitHub Dark icon</title><path fill="#7F8C8D" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-
-          GITHUB</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- <div id="special-sponsor">
-  <h3>Special Sponsor</h3>
+<div class="content  ">
   
-  <a href="https://stdlib.com/" target="_blank">
-    <img src="/images/stdlib.png" style="width:160px" alt="Code.xyz Logo">
-    <br>
-    <span>Build APIs you need in minutes instead of days, for free.</span>
+  
+  
+    <h1>Sponsor Vue.js Development</h1>
+
+<p>
+Vue.js is an MIT licensed open source project and completely free to use.
+However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support Vue.js development via the following methods:
+</p>
+
+<h2 id="One-time-Donations">One-time Donations</h2>
+
+<p>We accept donations through these channels:</p>
+
+<div id="one-time-donations">
+  <a href="https://www.paypal.me/evanyou" target="_blank">
+    <img src="/images/paypal.png" style="width:100px">
   </a>
-</div> -->
-
-<div id="highlights">
-  <div class="inner">
-    <div class="point">
-      <h2>Approachable</h2>
-      <p>Already know HTML, CSS and JavaScript? Read the guide and start building things in no time!</p>
-    </div>
-
-    <div class="point">
-      <h2>Versatile</h2>
-      <p>An incrementally adoptable ecosystem that scales between a library and a full-featured framework.</p>
-    </div>
-
-    <div class="point">
-      <h2>Performant</h2>
-      <p>
-        20KB min+gzip Runtime<br>
-        Blazing Fast Virtual DOM<br>
-        Minimal Optimization Efforts
-      </p>
-    </div>
-    
-  </div>
+  <a href="#btc"><svg width="38" height="38" viewbox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FFAD02" cx="19" cy="19" r="19"/><path d="M24.7 19.68a3.63 3.63 0 0 0 1.47-2.06c.74-2.77-.46-4.87-3.2-5.6l.89-3.33a.23.23 0 0 0-.16-.28l-1.32-.35a.23.23 0 0 0-.28.15l-.89 3.33-1.75-.47.88-3.32a.23.23 0 0 0-.16-.28l-1.31-.35a.23.23 0 0 0-.28.15l-.9 3.33-3.73-1a.23.23 0 0 0-.27.16l-.36 1.33c-.03.12.04.25.16.28l.22.06a1.83 1.83 0 0 1 1.28 2.24l-1.9 7.09a1.83 1.83 0 0 1-2.07 1.33.23.23 0 0 0-.24.12l-.69 1.24a.23.23 0 0 0 0 .2c.02.07.07.12.14.13l3.67.99-.89 3.33c-.03.12.04.24.16.27l1.32.35c.12.03.24-.04.28-.16l.89-3.32 1.76.47-.9 3.33c-.02.12.05.24.16.27l1.32.35c.12.03.25-.04.28-.16l.9-3.32.87.23c2.74.74 4.83-.48 5.57-3.25.35-1.3-.05-2.6-.92-3.48zm-5.96-5.95l2.64.7a1.83 1.83 0 0 1 1.28 2.24 1.83 1.83 0 0 1-2.23 1.3l-2.64-.7.95-3.54zm1.14 9.8l-3.51-.95.95-3.54 3.51.94a1.83 1.83 0 0 1 1.28 2.24 1.83 1.83 0 0 1-2.23 1.3z" fill="#FFF"/></g></svg>
+ BTC</a>
+  <a href="#bch"><svg width="38" height="38" viewbox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#8DC451" cx="19" cy="19" r="19"/><path d="M24.5 16.72c.37-.76.48-1.64.25-2.52-.75-2.76-2.84-3.98-5.58-3.25l-.89-3.32a.23.23 0 0 0-.28-.16l-1.32.35a.23.23 0 0 0-.16.27l.9 3.33-1.76.47-.9-3.32a.23.23 0 0 0-.27-.16l-1.32.35a.23.23 0 0 0-.16.28l.9 3.32-3.74 1a.23.23 0 0 0-.16.29l.35 1.32c.04.12.16.2.28.17l.22-.06c.97-.26 1.97.32 2.23 1.3l1.9 7.08c.25.93-.25 1.87-1.13 2.2a.23.23 0 0 0-.14.21l.02 1.43c0 .07.04.13.1.18.05.04.12.05.19.04l3.67-.99.9 3.33c.03.12.15.19.27.15l1.31-.35c.12-.03.2-.16.16-.28l-.88-3.32 1.75-.47.9 3.33c.03.12.15.19.27.15l1.32-.35c.12-.03.19-.16.16-.28l-.9-3.32.88-.24c2.75-.73 3.95-2.83 3.2-5.6a3.63 3.63 0 0 0-2.54-2.56zm-8.13-2.17l2.63-.7c.97-.26 1.97.32 2.23 1.3.27.97-.3 1.98-1.28 2.24l-2.63.7-.95-3.54zm5.88 7.91l-3.5.94-.96-3.54 3.51-.94c.97-.26 1.97.32 2.24 1.3.26.98-.32 1.98-1.29 2.24z" fill="#FFF"/></g></svg>
+ BCH</a>
+  <a href="#eth"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewbox="0 0 32 32"><g fill="none" fill-rule="evenodd"><ellipse cx="16" cy="16" fill="#6F7CBA" rx="16" ry="16"/><path fill="#FFF" d="M10.13 17.76c-.1-.15-.06-.2.09-.12l5.49 3.09c.15.08.4.08.56 0l5.58-3.08c.16-.08.2-.03.1.11L16.2 25.9c-.1.15-.28.15-.38 0l-5.7-8.13zm.04-2.03a.3.3 0 0 1-.13-.42l5.74-9.2c.1-.15.25-.15.34 0l5.77 9.19c.1.14.05.33-.12.41l-5.5 2.78a.73.73 0 0 1-.6 0l-5.5-2.76z"/></g></svg>
+ ETH</a>
+  <a href="#ltc"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewbox="0 0 38 38"><g fill="none" fill-rule="evenodd"><circle cx="19" cy="19" r="19" fill="#B5B5B5" fill-rule="nonzero"/><path fill="#FFF" d="M12.29 28.04l1.29-5.52-1.58.67.63-2.85 1.64-.68L16.52 10h5.23l-1.52 7.14 2.09-.74-.58 2.7-2.05.8-.9 4.34h8.1l-.99 3.8z"/></g></svg>
+ LTC
+  </a>
 </div>
 
-<div id="sponsors">
-  <div class="inner">
-    <h3>Patreon Sponsors</h3>
+<div id="coin-details" v-if="type && coins[type]">
+  <p>{{ coins[type].name }} Address:<br>{{ coins[type].address }}</p>
+  <img :src="'/images/coin-' + type + '.png'">
+</div>
+<script>
+var coins = new Vue({
+  el: '#coin-details',
+  data: {
+    type: window.location.hash.slice(1),
+    coins: {
+      btc: {
+        name: 'Bitcoin',
+        address: '14MEpy5a9MwDZa9CUzrfDhTU8dy2KKJ5mU'
+      },
+      bch: {
+        name: 'Bitcoin Cash',
+        address: '15gftB3fwumFRWGWFhVzTgc4nhM5w1F2Tu'
+      },
+      eth: {
+        name: 'Ethereum',
+        address: '0x3411356C1f0Bf5D859464eD2AC54DD2C222519B7'
+      },
+      ltc: {
+        name: 'Litecoin',
+        address: 'LUcHis3B8SFtEeZtuCaZoqsyN9XFAKmbCP'
+      }
+    }
+  }
+})
+window.addEventListener('hashchange', function () {
+  coins.type = window.location.hash.slice(1)
+})
+</script>
 
-<a href="https://moduscreate.com/?utm_source=Vue&utm_medium=Partnership&utm_campaign=VueShip" target="_blank" style="width: 160px;">
-  <img src="/images/modus.png" style="width: 160px;" alt="Modus">
-</a>
-<a href="https://www.bitsrc.io/?utm_source=vue&utm_medium=vue&utm_campaign=vue&utm_term=vue&utm_content=vue" target="_blank" style="width: 160px;">
-  <img src="/images/bit.png" style="width: 160px;" alt="Bit">
-</a>
-<a href="http://tooltwist.com/" target="_blank" style="width: 160px;">
-  <img src="/images/tooltwist.png" style="width: 160px;" alt="Tooltwist">
-</a>
-<a href="https://vueschool.io/?utm_source=Vuejs.org&utm_medium=Banner&utm_campaign=Sponsored%20Banner&utm_content=V1" target="_blank" style="width: 160px;">
-  <img src="/images/vueschool.png" style="width: 160px;" alt="VueSchool">
-</a>
-<a href="https://vehikl.com/" target="_blank" style="width: 160px;">
-  <img src="/images/vehikl.png" style="width: 160px;" alt="Vehikl">
-</a>
-<a href="https://www.nativescript.org/vue?utm_source=vue-js-org&utm_medium=website&utm_campaign=nativescript-awareness" target="_blank" style="width: 160px;">
-  <img src="/images/nativescript.png" style="width: 160px;" alt="NativeScript">
-</a>
-<br>
-<br>
-<a href="https://www.vuemastery.com/" target="_blank" style="width: 120px;">
-  <img src="/images/vuemastery.png" style="width: 120px;" alt="VueMastery">
-</a>
-<a href="https://laravel.com" target="_blank" style="width: 120px;">
-  <img src="/images/laravel.png" style="width: 120px;" alt="Laravel">
-</a>
-<a href="https://chaitin.cn/en/" target="_blank" style="width: 120px;">
-  <img src="/images/chaitin.png" style="width: 120px;" alt="Chaitin">
-</a>
-<a href="https://htmlburger.com" target="_blank" style="width: 120px;">
-  <img src="/images/html_burger.png" style="width: 120px;" alt="HTML Burger">
-</a>
-<a href="https://www.frontenddeveloperlove.com/" target="_blank" style="width: 120px;">
-  <img src="/images/frontend_love.png" style="width: 120px;" alt="Frontend Love">
-</a>
-<a href="https://onsen.io/vue/" target="_blank" style="width: 120px;">
-  <img src="/images/onsen_ui.png" style="width: 120px;" alt="Onsen UI">
-</a>
-<a href="https://vuetifyjs.com" target="_blank" style="width: 120px;">
-  <img src="/images/vuetify.png" style="width: 120px;" alt="Vuetify">
-</a>
-<a href="https://neds.com.au/" target="_blank" style="width: 120px;">
-  <img src="/images/neds.png" style="width: 120px;" alt="Neds">
-</a>
-<a href="https://icons8.com/" target="_blank" style="width: 120px;">
-  <img src="/images/icons_8.png" style="width: 120px;" alt="Icons 8">
-</a>
-<a href="https://vuejobs.com/?ref=vuejs" target="_blank" style="width: 120px;">
-  <img src="/images/vuejobs.png" style="width: 120px;" alt="VueJobs">
-</a>
-<a href="https://tidelift.com/subscription/npm/vue" target="_blank" style="width: 120px;">
-  <img src="/images/tidelift.png" style="width: 120px;" alt="Tidelift">
-</a>
-<a href="http://www.syncfusion.com/?utm_source=vuejs&utm_medium=list&utm_campaign=vuejsjslistcy19" target="_blank" style="width: 120px;">
-  <img src="/images/syncfusion.png" style="width: 120px;" alt="SyncFusion">
-</a>
-<a href="https://opteo.com/vue" target="_blank" style="width: 120px;">
-  <img src="/images/opteo.png" style="width: 120px;" alt="Opteo">
-</a>
-<a href="https://devsquad.com/" target="_blank" style="width: 120px;">
-  <img src="/images/devsquad.png" style="width: 120px;" alt="DevSquad">
-</a>
-<a href="https://www.inkoop.in/" target="_blank" style="width: 120px;">
-  <img src="/images/inkoop.png" style="width: 120px;" alt="Inkoop">
-</a>
-<a href="https://www.firesticktricks.com/" target="_blank" style="width: 120px;">
-  <img src="/images/firestick_tricks.png" style="width: 120px;" alt="Firestick Tricks">
-</a>
-<a href="https://github.com/marcus-hiles" target="_blank" style="width: 120px;">
-  <img src="/images/marcus_hiles.png" style="width: 120px;" alt="Marcus Hiles">
-</a>
-<a href="https://intygrate.com/" target="_blank" style="width: 120px;">
-  <img src="/images/intygrate.png" style="width: 120px;" alt="Intygrate">
-</a>
-<a href="https://isleofcode.com/" target="_blank" style="width: 120px;">
-  <img src="/images/isle_of_code.png" style="width: 120px;" alt="Isle of Code">
-</a>
-<a href="https://yakaz.com/" target="_blank" style="width: 120px;">
-  <img src="/images/yakaz.png" style="width: 120px;" alt="Yakaz">
-</a>
-<a href="https://passionatepeople.io/" target="_blank" style="width: 120px;">
-  <img src="/images/passionate_people.png" style="width: 120px;" alt="Passionate People">
-</a>
-<a href="https://www.bestvpn.co/" target="_blank" style="width: 120px;">
-  <img src="/images/bestvpn_co.png" style="width: 120px;" alt="BestVPN.co">
-</a>
-<a href="http://en.shopware.com/" target="_blank" style="width: 120px;">
-  <img src="/images/shopware_ag.svg" style="width: 120px;" alt="shopware AG">
-</a>
-<br>
+<h2 id="Recurring-Pledges">Recurring Pledges</h2>
 
-<a class="become-sponsor button white" href="/support-vuejs/">Become a Sponsor!</a>
+<p>
+Recurring pledges come with exclusive perks, e.g. having your name listed in the Vue GitHub repository, or have your company logo placed on this website.
+</p>
 
-<div class="open-collective-sponsors">
-  <h3>OpenCollective Sponsors</h3>
-  <h4>Platinum</h4>
+<ul>
+  <li>
+    <a href="https://www.patreon.com/evanyou" target="_blank">Become a backer or sponsor via Patreon</a> (goes directly to support Evan You's full-time work on Vue)
+  </li>
+  <li>
+    <a href="https://opencollective.com/vuejs">Become a backer or sponsor via OpenCollective</a> (goes into a fund with transparent expense models supporting community efforts and events)
+  </li>
+</ul>
+
+<h2>Current Premium Sponsors:</h2>
+
+<h3>Special Sponsors</h3>
+
+<p class="platinum">
+  <a href="https://stdlib.com/" target="_blank">
+    <img src="/images/stdlib.png">
+  </a>
+</p>
+
+<h3>Platinum</h3>
+
+<p class="platinum">
+  <a href="https://moduscreate.com/?utm_source=Vue&utm_medium=Partnership&utm_campaign=VueShip" target="_blank">
+    <img src="/images/modus.png">
+  </a>
+  <a href="https://www.bitsrc.io/?utm_source=vue&utm_medium=vue&utm_campaign=vue&utm_term=vue&utm_content=vue" target="_blank">
+    <img src="/images/bit.png">
+  </a>
+  <a href="http://tooltwist.com/" target="_blank">
+    <img src="/images/tooltwist.png">
+  </a>
+  <a href="https://vueschool.io/?utm_source=Vuejs.org&utm_medium=Banner&utm_campaign=Sponsored%20Banner&utm_content=V1" target="_blank">
+    <img src="/images/vueschool.png">
+  </a>
+  <a href="https://vehikl.com/" target="_blank">
+    <img src="/images/vehikl.png">
+  </a>
+  <a href="https://www.nativescript.org/vue?utm_source=vue-js-org&utm_medium=website&utm_campaign=nativescript-awareness" target="_blank">
+    <img src="/images/nativescript.png">
+  </a>
+</p>
+
+<h3>OpenCollective Platinum</h3>
+
+<p class="open-collective-sponsors sponsor-section">
   <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/0/website" target="_blank">
     <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/0/avatar.svg">
   </a>
   <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/1/website" target="_blank">
     <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/1/avatar.svg">
   </a>
-  <h4>Gold</h4>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/2/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/2/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/3/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/3/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/4/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/4/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/5/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/5/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/6/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/6/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/7/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/7/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/8/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/8/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/9/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/9/avatar.svg">
+  </a>
+</p>
+
+<h3>Special Sponsors (China)</h3>
+
+<p class="platinum">
+  <a href="http://www.dcloud.io/?hmsr=vuejsorg&hmpl=&hmcu=&hmkw=&hmci=" target="_blank">
+    <img src="/images/dcloud.gif">
+  </a>
+</p>
+
+<h3>Patreon Gold</h3>
+
+<p class="patreon-sponsors sponsor-section">
+  <a href="https://www.vuemastery.com/" target="_blank">
+    <img src="/images/vuemastery.png">
+  </a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="/images/laravel.png">
+  </a>
+  <a href="https://chaitin.cn/en/" target="_blank">
+    <img src="/images/chaitin.png">
+  </a>
+  <a href="https://htmlburger.com" target="_blank">
+    <img src="/images/html_burger.png">
+  </a>
+  <a href="https://www.frontenddeveloperlove.com/" target="_blank">
+    <img src="/images/frontend_love.png">
+  </a>
+  <a href="https://onsen.io/vue/" target="_blank">
+    <img src="/images/onsen_ui.png">
+  </a>
+  <a href="https://vuetifyjs.com" target="_blank">
+    <img src="/images/vuetify.png">
+  </a>
+  <a href="https://neds.com.au/" target="_blank">
+    <img src="/images/neds.png">
+  </a>
+  <a href="https://icons8.com/" target="_blank">
+    <img src="/images/icons_8.png">
+  </a>
+  <a href="https://vuejobs.com/?ref=vuejs" target="_blank">
+    <img src="/images/vuejobs.png">
+  </a>
+  <a href="https://tidelift.com/subscription/npm/vue" target="_blank">
+    <img src="/images/tidelift.png">
+  </a>
+  <a href="http://www.syncfusion.com/?utm_source=vuejs&utm_medium=list&utm_campaign=vuejsjslistcy19" target="_blank">
+    <img src="/images/syncfusion.png">
+  </a>
+  <a href="https://opteo.com/vue" target="_blank">
+    <img src="/images/opteo.png">
+  </a>
+  <a href="https://devsquad.com/" target="_blank">
+    <img src="/images/devsquad.png">
+  </a>
+  <a href="https://www.inkoop.in/" target="_blank">
+    <img src="/images/inkoop.png">
+  </a>
+  <a href="https://www.firesticktricks.com/" target="_blank">
+    <img src="/images/firestick_tricks.png">
+  </a>
+  <a href="https://github.com/marcus-hiles" target="_blank">
+    <img src="/images/marcus_hiles.png">
+  </a>
+  <a href="https://intygrate.com/" target="_blank">
+    <img src="/images/intygrate.png">
+  </a>
+  <a href="https://isleofcode.com/" target="_blank">
+    <img src="/images/isle_of_code.png">
+  </a>
+  <a href="https://yakaz.com/" target="_blank">
+    <img src="/images/yakaz.png">
+  </a>
+  <a href="https://passionatepeople.io/" target="_blank">
+    <img src="/images/passionate_people.png">
+  </a>
+  <a href="https://www.bestvpn.co/" target="_blank">
+    <img src="/images/bestvpn_co.png">
+  </a>
+  <a href="http://en.shopware.com/" target="_blank">
+    <img src="/images/shopware_ag.svg">
+  </a>
+</p>
+
+<h3>OpenCollective Gold</h3>
+
+<p class="open-collective-sponsors sponsor-section">
   <a href="https://opencollective.com/vuejs/tiers/gold-sponsors/0/website" target="_blank">
     <img src="https://opencollective.com/vuejs/tiers/gold-sponsors/0/avatar.svg">
   </a>
@@ -560,98 +628,66 @@
   <a href="https://opencollective.com/vuejs/tiers/gold-sponsors/7/website" target="_blank">
     <img src="https://opencollective.com/vuejs/tiers/gold-sponsors/7/avatar.svg">
   </a>
-</div>
+  <a href="https://opencollective.com/vuejs/tiers/gold-sponsors/8/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/gold-sponsors/8/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/gold-sponsors/9/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/gold-sponsors/9/avatar.svg">
+  </a>
+</p>
 
-<script>
-window.addEventListener('load', function () {
-  [].forEach.call(document.querySelectorAll('.open-collective-sponsors img'), function (img) {
-    if (img.width === 1) {
-      img.width = 0
-      img.parentElement.style.margin = '0 -1px 0 0'
-    }
-  })
-})
-</script>
+<h3>Patreon Silver</h3>
 
-  </div>
-</div>
+<p class="patreon-sponsors sponsor-section">
+  <a href="https://dopamine.bg/" target="_blank">
+    <img src="/images/dopamine.png">
+  </a>
+  <a href="https://gridsome.org/" target="_blank">
+    <img src="/images/gridsome.png">
+  </a>
+</p>
 
-<div id="news">
-  <div class="inner">
-    <h3><label for="member_email">Subscribe to our Weekly Newsletter</label></h3>
-    <form class="newsletter-form" id="revue-form" name="revue-form" target="_blank" action="https://www.getrevue.co/profile/vuenewsletter/add_subscriber" method="post" @submit="subscribe">
-      <input class="newsletter-input" type="email" name="member[email]" id="member_email" required placeholder="Email address">
-      <input class="button newsletter-button" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
-    </form>
-    <p>
-      You can read the previous issues and listen to our podcast at <a href="https://news.vuejs.org" target="_blank">news.vuejs.org</a>.
-    </p>
-  </div>
-</div>
+<h3>OpenCollective Silver</h3>
 
-<div id="footer">
-<!--   <p>
-    <a class="social-icon" href="https://github.com/vuejs/vue" target="_blank">
-      <svg aria-labelledby="simpleicons-github-icon" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <title id="simpleicons-github-icon" lang="en">GitHub icon</title>
-  <path fill="#FFFFFF" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-</svg>
+<p class="open-collective-sponsors sponsor-section">
+  <a href="https://opencollective.com/vuejs/tiers/silver-sponsors/0/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/silver-sponsors/0/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/silver-sponsors/1/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/silver-sponsors/1/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/silver-sponsors/2/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/silver-sponsors/2/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/silver-sponsors/3/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/silver-sponsors/3/avatar.svg">
+  </a>
+  <a href="https://opencollective.com/vuejs/tiers/silver-sponsors/4/website" target="_blank">
+    <img src="https://opencollective.com/vuejs/tiers/silver-sponsors/4/avatar.svg">
+  </a>
+</p>
 
+<p>
+If you run a business and are using Vue in a revenue-generating product, it makes business sense to sponsor Vue development: <b>it ensures the project that your product relies on stays healthy and actively maintained.</b> It can also help your exposure in the Vue community and makes it easier to attract Vue developers.
+</p>
+
+<p>
+If you are an individual user and have enjoyed the productivity of using Vue, consider donating as a sign of appreciation - like buying me coffee once in a while :)
+</p>
+
+  
+  
+<!--   <div class="footer">
+    Caught a mistake or want to contribute to the documentation?
+    <a href="https://github.com/vuejs/vuejs.org/blob/master/src/support-vuejs/index.md" target="_blank">
+      Edit this page on GitHub!
     </a>
-    <a class="social-icon" href="https://twitter.com/vuejs" target="_blank">
-      <svg aria-labelledby="simpleicons-twitter-icon" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-twitter-icon" lang="en">Twitter icon</title><path fill="#FFFFFF" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
-
-    </a>
-    <a class="social-icon" href="https://medium.com/the-vue-point" target="_blank">
-      <svg aria-labelledby="simpleicons-medium-icon" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-medium-icon" lang="en">Medium icon</title><path fill="#FFFFFF" d="M2.846 6.36c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403H7.26l5.378 11.795 4.728-11.795H24v.403l-1.917 1.837c-.165.126-.247.333-.213.538v13.5c-.034.204.048.41.213.537l1.87 1.837v.403h-9.41v-.403l1.937-1.882c.19-.19.19-.246.19-.538V7.794l-5.39 13.688h-.727L4.278 7.794v9.174c-.052.386.076.774.347 1.053l2.52 3.06v.402H0v-.403l2.52-3.06c.27-.278.39-.67.326-1.052V6.36z"/></svg>
-
-    </a>
-  </p> -->
-  <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a><br>
-  Copyright &copy; 2014-2019 Evan You</p>
+  </div> -->
 </div>
 
-<div id="video-modal" class="modal">
-  <div class="video-space" style="padding: 56.25% 0 0 0; position: relative;"><iframe src="https://player.vimeo.com/video/247494684" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div><script src="https://player.vimeo.com/api/player.js"></script>
-  <p class="modal-text">Video by <a href="https://www.vuemastery.com" target="_blank" rel="noopener" title="Vue.js Courses on Vue Mastery">Vue Mastery</a>. Watch Vue Mastery’s free <a href="https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/" target="_blank" rel="noopener" title="Vue.js Courses on Vue Mastery">Intro to Vue course</a>.
-  </p>
-</div>
-
-<script>
-(function () {
-  var topScrolled = false
-  var sponsors = document.getElementById('sponsors')
-  var sponsorTop = sponsors.offsetTop
-  var sponsorActive = false
-
-  window.addEventListener('resize', function () {
-    sponsorTop = sponsors.offsetTop
-  })
-
-  window.addEventListener('scroll', function () {
-    if (window.pageYOffset > 165 && !topScrolled) {
-      topScrolled = true
-      document.getElementById('mobile-bar').classList.remove('top')
-    } else if (window.pageYOffset <= 165 && topScrolled) {
-      topScrolled = false
-      document.getElementById('mobile-bar').classList.add('top')
-    }
-    if (window.pageYOffset > sponsorTop - 100) {
-      if (!sponsorActive) {
-        sponsorActive = true
-        sponsors.classList.add('active')
-      }
-    } else {
-      if (sponsorActive) {
-        sponsorActive = false
-        sponsors.classList.remove('active')
-      }
-    }
-  })
-})()
-</script>
-
+        
+      </div>
+      <script src="/js/smooth-scroll.min.js"></script>
     
 
     <!-- main custom script for sidebars, version selects etc. -->
